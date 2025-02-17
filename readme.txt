@@ -1,2 +1,18 @@
-
-monorepo/ ├── apps/ │ ├── front-admin-app/ │ ├── front-anamnese-app/ │ ├── front-app/ │ ├── front-customer-app/ │ ├── front-selfservice-app/ │ ├── migration-app/ │ └── shared/ # Shared code and utilities │ ├── .nuxt/ │ ├── .storybook/ │ ├── assets/ │ ├── components/ # Reusable Vue components │ │ ├── Buttons/ │ │ ├── Tables/ │ │ ├── .../ │ ├── composables/ │ ├── data/ │ ├── graphql-setup/ │ ├── locales/ │ ├── middleware/ │ ├── node_modules/ │ ├── pages/ │ ├── presets/ │ ├── services/ │ ├── stores/ │ ├── stories/ │ ├── tests/ │ ├── types/ │ ├── nuxt.config.ts │ ├── package.json
+```
+project
+│   README.md
+│   file001.txt    
+│
+└───folder1
+│   │   file011.txt
+│   │   file012.txt
+│   │
+│   └───subfolder1
+│       │   file111.txt
+│       │   file112.txt
+│       │   ...
+│   
+└───folder2
+    │   file021.txt
+    │   file022.txt
+```
