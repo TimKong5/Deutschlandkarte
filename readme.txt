@@ -1,1 +1,2 @@
-Hallo, das ist ein tester.
+
+monorepo/ ├── apps/ │ ├── front-admin-app/ │ ├── front-anamnese-app/ │ ├── front-app/ │ ├── front-customer-app/ │ ├── front-selfservice-app/ │ ├── migration-app/ │ └── shared/ # Shared code and utilities │ ├── .nuxt/ │ ├── .storybook/ │ ├── assets/ │ ├── components/ # Reusable Vue components │ │ ├── Buttons/ │ │ ├── Tables/ │ │ ├── .../ │ ├── composables/ │ ├── data/ │ ├── graphql-setup/ │ ├── locales/ │ ├── middleware/ │ ├── node_modules/ │ ├── pages/ │ ├── presets/ │ ├── services/ │ ├── stores/ │ ├── stories/ │ ├── tests/ │ ├── types/ │ ├── nuxt.config.ts │ ├── package.json
